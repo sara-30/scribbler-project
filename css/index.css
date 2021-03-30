@@ -1,0 +1,147 @@
+body{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    margin: 0px;
+   
+}
+
+
+
+#center-buttons{
+   
+position:absolute;
+top: 46%;
+left: 42%;
+}
+#center-buttons button{
+    color:black;
+    justify-content: center;
+    background-color:goldenrod;
+    padding: 10px 20px;
+}
+
+#Sign-in{
+
+    width: 300px;
+    height: 300px;
+    position:absolute;
+    top : 20%;
+    left :40%;
+    z-index: 4;
+    background-color:white;
+    padding: 50px 20px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+
+}
+#Sign-in input{
+    width: 300px;
+    height: 25px;
+    
+}
+#Sign-in h2{
+    text-align: center;
+}
+#Sign-in-Submit{
+    background-color:green;
+    border: none;
+    height: 35px;
+    color: white;
+    
+}
+#Sign-in i{
+    position: absolute;
+    top: 0%;
+    left:95%;
+}
+#Sign-up{
+
+    width: fit-content;
+    height: fit-content;
+    position:absolute;
+    top : 20%;
+    left :40%;
+    z-index: 3;
+    background-color:white;
+    padding: 50px 20px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+
+}
+#Sign-up input{
+    width: 300px;
+    height: 25px;
+    
+}
+#Sign-up h2{
+    text-align: center;
+}
+#Sign-up-Submit{
+    background-color:green;
+    border: none;
+    height: 35px;
+    color: white;
+    
+}
+#Sign-up i{
+    position: absolute;
+    top: 0%;
+    left:95%;
+}
+#opaq{
+    position: fixed;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    display: none;
+
+}
+#post-box{
+
+    width: fit-content;
+    height: fit-content;
+    position:absolute;
+    top : 10%;
+    left :30%;
+    z-index: 3;
+    background-color:white;
+    padding: 50px 20px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    }
+
+#post-box h2{
+    text-align: center;
+}
+#postbox-Submit{
+    background-color:green;
+    border: none;
+    height: 35px;
+    color: white;
+    margin-left: 45%;
+    
+}
+#post-box i{
+    position: absolute;
+    top: 0%;
+    left:98%;
+}
+#poststub{
+    height: 300px;
+    width: 600px;
+    background-color: rgba(0,0,0,0.2);
+    border: none
+}
+#postbox-title{
+    width: 250px;
+    background-color: rgba(0,0,0,0.2);
+    border: none;
+}

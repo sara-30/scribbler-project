@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  .btn {
+    padding: 0.5rem 1rem;
+    margin: 0.25rem;
+  }
+  
+  .btn-primary {
+    background-color: blue;
+    color: white;
+  }
+  
+  .btn-warning {
+    background-color: #cfb53b;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-family: "Dancing Script", cursive;
+    letter-spacing: 0.1rem;
+    margin: 0.25rem;
+  }
+  
+  .logo-title {
+      font-family: "Dancing Script", cursive;
+    color: blue;
+    font-size: 3rem;
+    margin-bottom: 0.25rem;
+  }
+  .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgb(0, 0, 0); /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+    
+    .modal-content {
+      position: relative;
+      background-color: #fefefe;
+      padding: 1rem;
+      margin: 5% auto;
+      border: 1px solid #888;
+      width: 30%;
+    }
+    
+    .close {
+      position: absolute;
+      color: #aaa;
+      top: 0;
+      right: 10px;
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    .modal-title {
+      font-size: 2rem;
+      text-align: center;
+    }
+    
+    .line {
+      margin: 2rem 0rem;
+    }
+    
+    .form-item {
+      display: flex;
+      flex-direction: column;
+      margin: 1rem 0rem;
+    }
+    
+    .form-item label {
+      margin-bottom: 0.5rem;
+    }
+    
+    .form-item input,
+    .form-item textarea {
+      background-color: #f1f1f1;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border: none;
+    }
+    
+    .form-item button {
+      border: none;
+      background-color: #5eb762;
+      padding: 1rem;
+      color: white;
+    }
+    
+    .form-item p {
+      text-align: center;
+      font-weight: bolder;
+      margin-top: 1rem;
+    }
+    
+    .form-item a {
+      text-decoration: none;
+    }
+    
+    .form-item div {
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem;
+    }
+  
+  .blog-post button {
+    border: none;
+    background-color: #ef3b65;
+    color: white;
+    box-shadow: 0px 10px 15px rgba(187, 43, 127, 0.4);
+  }
+  
+  .blog-post {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .post-title {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .post-subtitle {
+    font-size: 1.25rem;
+    margin: 1.5rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .post-author {
+    font-family: "Dancing Script", cursive;
+  }
+  
+  .post-content {
+    font-family: "Roboto Mono", monospace;
+  }
+  
+  .like-btn-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0rem;
+  }
+  
+  .like-btn-container span {
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+  }
+  
+  .add-comment-section {
+    margin: 1rem 0rem;
+  }
+  
+  .add-comment-textarea textarea {
+    display: flex;
+    width: 60%;
+  }
+  
+  .add-comment-btn-container {
+    margin: 0.5rem 0rem;
+  }
+  
+  .all-comments {
+    margin-top: 2rem;
+  }
+  
+  .all-comments h5 {
+    font-weight: bolder;
+    font-size: 1.1rem;
+  }
+  
+  .comments-list {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 1rem;
+    background-color: #e2e4e6;
+    padding: 1rem;
+  }
+  
+  .comment {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+  }
+  
+  .border-pink {
+    border: 1px solid #ef3b65;
+  }
+  
+  .border-blue {
+    border: 1px solid blue;
+  }
+  
+  #save-btn {
+    display: none;
+  }

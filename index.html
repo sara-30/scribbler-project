@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- TODO: Include Font Awesome file here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- TODO: Include Google Fonts file here -->
+ 
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/header.css">
+</head>
+<body>
+    <div id = "opaq"></div>
+<div id="header">
+<span id="heading">ScriBBler</span>
+
+    <button id ="top-btn-1"  onclick="signin()">Sign in</button>
+    <button id ="top-btn-2" id ="signupbox" onclick="signup()">Sign up</button>
+    
+<span id ="motto">  Explore Imagine Create</span> 
+</div>
+<div id = "center-buttons">
+    <button onclick="location.href='html/bloglist.html'"><b>All Posts</b></button>
+    <button onclick="createpost()"><b>Create Post</b></button>
+</div>
+<div id ="Sign-in">
+    <i class="fa fa-close" id ="close" onclick="closesigninbox()"></i>
+    <h2>Welcome back!!</h2>
+    <hr>
+    <br>
+<form>
+    <label for="">Username</label><br>
+    <input type ="text" required>
+    <br><br>
+    <label>Password
+    </label><br>
+    <input type="password" required>
+    <br> <br>
+    <input type="submit"  id ="Sign-in-Submit" value="Sign in"><br>
+</form>
+    <p style="text-align: center;"><b>Not a Member ?</b> <span onclick="signup()" style="color:blue;"> <b>Sign up</b></span> </p>
+
+</div>
+<div id ="Sign-up">
+    <i class="fa fa-close" id ="close" onclick="closesignupbox()"></i>
+    <h2>Get Started</h2>
+    <hr>
+    <br>
+<form >
+    <label for="">Fullname</label><br>
+    <input type ="text" id ="fullname" required>
+    <br><br>
+    <label for="">Username</label><br>
+    <input type ="text" id ="username" required>
+    <br><br>
+    <label>Password
+    </label><br>
+    <input type="password" id ="password" required>
+    <br> <br>
+    <label> Confirm Password
+    </label><br>
+    <input type="password" id="cpassword" required>
+    <br> <br>
+    <input type="submit" onclick="check(event)" id ="Sign-up-Submit" value="Sign up"><br>
+   
+</form>
+    <p style="text-align: center;"><b>Already  a Member ?</b> <span onclick="signin()" style="color:blue;"> <b>Sign in</b></span> </p> <br>
+
+</div>
+<div id ="post-box">
+    <i class="fa fa-close" id ="close" onclick="closepostbox()"></i>
+    <h2>Pen Your Post </h2>
+    <hr>
+    <br>
+<form>
+    <label for="">Title:</label><br>
+    <input type ="text" id ="postbox-title" required>
+    <br><br>
+    <label>Content:</label><br>
+    <textarea id ="poststub" required></textarea>
+    <br> <br><br>
+    <input type="submit"  id ="postbox-Submit" value="Create"><br>
+</form>
+
+</div>
+<script src="javascript/index.js"></script>
+</body>
+
+</html>

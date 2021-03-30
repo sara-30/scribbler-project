@@ -1,0 +1,41 @@
+@font-face{
+    font-family: 'Dancing Script';
+    src: url('../fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf');
+}
+#top-btn-1{
+    position: absolute;
+    left: 85%;
+    top: 1%;
+    margin-right: 1%;
+    color: white;
+    justify-content: center;
+    background-color: blue;
+    padding: 10px 20px;
+}
+#top-btn-2{
+ position:  absolute;
+left:92%;
+top: 1%;
+    color: white;
+    justify-content: center;
+    background-color: blue;
+    padding: 10px 20px;
+}
+#heading{
+   
+    position: absolute;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+
+    color: blue;
+    top: 0%;
+    left: 0%;
+}
+#motto{
+    position:absolute;
+    top:7%;
+    left: 0.5%;
+    font-family: 'Dancing Script', cursive;
+    opacity: 0.5;
+   
+}
